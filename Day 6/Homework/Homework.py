@@ -1,10 +1,4 @@
-num1 = int(input("Please enter first number: "))
-num2 = int(input("Please enter second number: "))
-num3 = int(input("Please enter third number: "))
-num4 = int(input("Please enter forth number: "))
+user_firstname = input ("Plase enter your firstname: ")
+user_lastname = input ("Plase enter your lastname: ")
 
-print(num1 + num2 * num3 - num4)
-print(num1 - num2 / num3 + num4)
-print(num1 + num2 + num3 * num4)
-print(num1 / num2 * num3 - num4)
-
+print("Your Welcome" ,user_firstname,user_lastname)

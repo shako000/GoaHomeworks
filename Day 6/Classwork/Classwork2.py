@@ -1,9 +1,10 @@
-age_mom = int(input("enter mom age: "))
-age_father = int(input("enter father age: "))
-age_sister = int(input("enter sister age: "))
+num1 = int(input("Please enter first number: "))
+num2 = int(input("Please enter second number: "))
+num3 = int(input("Please enter third number: "))
+num4 = int(input("Please enter forth number: "))
 
-twenty_years_later = int(input("twenty years later: "))
+print(num1 + num2 * num3 - num4)
+print(num1 - num2 / num3 + num4)
+print(num1 + num2 + num3 * num4)
+print(num1 / num2 * num3 - num4)
 
-print(age_mom + twenty_years_later)
-print(age_father + twenty_years_later)
-print(age_sister + twenty_years_later)

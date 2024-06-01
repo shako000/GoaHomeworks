@@ -1,6 +1,9 @@
-user_firstname = input ("Plase enter your firstname: ")
-user_lastname = input ("Plase enter your lastname: ")
-user_age = input ("Plase enter your age: ")
-user_email = input ("Plase enter your email: ")
+age_mom = int(input("enter mom age: "))
+age_father = int(input("enter father age: "))
+age_sister = int(input("enter sister age: "))
 
-print("Your inputed informatione is: ",user_firstname,user_lastname,user_age,user_email)
+twenty_years_later = int(input("twenty years later: "))
+
+print(age_mom + twenty_years_later)
+print(age_father + twenty_years_later)
+print(age_sister + twenty_years_later)
